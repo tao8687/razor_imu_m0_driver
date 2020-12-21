@@ -7,4 +7,5 @@ g: 9.80665
 
 # the following are commented-out as they are provided by this package's default launch script
 #set_logger_level_debug: false
-#port: "/dev/imu0"
+port: "/dev/imu"
+frame_id: "base_imu_link"
